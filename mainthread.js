@@ -10,7 +10,7 @@ if (window.Worker) {
 }
 
 // Main thread
-const worker = new Worker('worker.js');
+const worker = new Worker('./workerthread.js');
 
 // Elements for input and output
 const startBtn = document.getElementById('start');
